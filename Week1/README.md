@@ -5,4 +5,9 @@
 * Components
 * Props
 * State
+* Create-React-App
 * React DevTools
+* Component LifeCycle
+* Destructure props
+* Validating props w/ PropTypes
+* Access DOM nodes with refs
