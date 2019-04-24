@@ -18,7 +18,8 @@ One of my team's main priorities was to use this challenge as a starting block t
 ## The Plan
 Throughout my challenge, I'll be updating this repo with all of the work I do seperated by each week. We set up our itinerary for this trip by each week and further details about each can be found in its repo below:
 
-* [Week 1](https://github.com/gr8white/100DaysOfCode-React/tree/master/Week1/scoreboard)
+* [Week 1](https://github.com/gr8white/100DaysOfCode-React/tree/master/Week1)
+* [Week 2](https://github.com/gr8white/100DaysOfCode-React/tree/master/Week2)
 
 ## The Show
 I chose to use my [LinkedIn](https://www.linkedin.com/in/dwhitejr/), [Twitter](https://twitter.com/_derrickwhite), and [Instagram](https://www.instagram.com/derrick.white/) to document my #💯DaysofCode Challenge. Feel free to follow me, contact me, message me, hire me, whatever floats your boat.
