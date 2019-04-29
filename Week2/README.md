@@ -9,6 +9,6 @@
 * Ternary Expressions
 * Advanced JavaScript in React
 
-# Weekly Project: [React To-Do App with React Hooks](https://scotch.io/tutorials/build-a-react-to-do-app-with-react-hooks-no-class-components)
+## Weekly Project: [React To-Do App with React Hooks](https://scotch.io/tutorials/build-a-react-to-do-app-with-react-hooks-no-class-components)
 
-* [My Source Code]() 
+* [My Source Code](https://github.com/gr8white/100DaysOfCode-React/tree/master/Week2/react-to-do) 
