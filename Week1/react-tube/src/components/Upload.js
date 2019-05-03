@@ -6,8 +6,8 @@ class Upload extends Component {
 
   uploadWidget = () => {
     window.cloudinary.openUploadWidget(
-      { cloud_name: 'cloud_name',
-        upload_preset: '<unsigned-preset>',
+      { cloud_name: 'gr8white',
+        upload_preset: 'dji8hkwd',
         tags: ['react-tube'],
         sources: ['local', 'url', 'google_photos', 'facebook', 'image_search']
       },
@@ -16,18 +16,17 @@ class Upload extends Component {
       });
   }
 
-
   render() {
 
     return (
       <div>
         <Nav />
-        <h3 className="text-center">Upload Your 20-second Video in a Jiffy</h3>
+        <h3 className="text-center">Upload Your 20-second #React100 Videos</h3>
         <hr/>
 
         <div className="col-sm-12">
           <div className="jumbotron text-center">
-            <button onClick={this.uploadWidget} className="btn btn-lg btn-info"> Upload Video</button>
+          <button onClick={this.uploadWidget} className="btn btn-lg btn-info"> Upload Video</button>
           </div>
         </div>
       </div>

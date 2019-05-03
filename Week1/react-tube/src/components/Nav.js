@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router';
-import { login, logout, isLoggedIn } from '../Utils/AuthService';
+import { login, logout, isLoggedIn } from '../utils/AuthService';
 import '../App.css';
 
 class Nav extends Component {
