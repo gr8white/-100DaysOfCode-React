@@ -20,6 +20,7 @@ Throughout my challenge, I'll be updating this repo with all of the work I do se
 
 * [Week 1](https://github.com/gr8white/100DaysOfCode-React/tree/master/Week1)
 * [Week 2](https://github.com/gr8white/100DaysOfCode-React/tree/master/Week2)
+* [Week 3](https://github.com/gr8white/100DaysOfCode-React/tree/master/Week3)
 
 ## The Show
 I chose to use my [LinkedIn](https://www.linkedin.com/in/dwhitejr/), [Twitter](https://twitter.com/_derrickwhite), and [Instagram](https://www.instagram.com/derrick.white/) to document my #💯DaysofCode Challenge. Feel free to follow me, contact me, message me, hire me, whatever floats your boat.
