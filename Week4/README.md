@@ -21,3 +21,7 @@ much this is probably holding me back from actually learning. So this week, I'll
 actually practice everythign I learn  on my own instead of just copying from the online professor. 
 Just a small challenge for myself.
 ```
+
+## Weekly Project: [Build an Airbnb Clone with React and ElasticSearch](https://scotch.io/tutorials/build-an-airbnb-clone-with-react-and-elasticsearch)
+
+* [My Source Code](https://github.com/gr8white/100DaysOfCode-React) 
