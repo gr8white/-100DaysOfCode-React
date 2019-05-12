@@ -24,4 +24,4 @@ Just a small challenge for myself.
 
 ## Weekly Project: [Build an Airbnb Clone with React and ElasticSearch](https://scotch.io/tutorials/build-an-airbnb-clone-with-react-and-elasticsearch)
 
-* [My Source Code](https://github.com/gr8white/100DaysOfCode-React) 
+* [My Source Code](https://github.com/gr8white/100DaysOfCode-React/tree/master/Week4/airbeds) 
