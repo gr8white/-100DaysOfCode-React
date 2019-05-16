@@ -6,8 +6,8 @@ import './App.css'
 export default () => (
     <div className="container">
         <ReactiveBase
-            app="housing"
-            credentials="X8RsOu0Lp:9b4fe1a4-58c6-4089-a042-505d86d9da30"
+            app="React100Airbeds"
+            credentials="2sw2k10ab:4b72e0d3-2bad-4e77-85a5-e6c5357c9d27"
             type="listing"
             theme={{
                 primaryColor: '#FF3A4E',
@@ -23,7 +23,7 @@ export default () => (
                     title="When"
                     numberOfMonths={2}
                     queryFormat="basic_date"
-                    initialMonth={new Date('05-01-2019')}
+                    initialMonth={new Date('04-01-2017')}
                 />
 
                 <NumberBox
