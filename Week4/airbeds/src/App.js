@@ -8,7 +8,6 @@ export default () => (
         <ReactiveBase
             app="React100Airbeds"
             credentials="2sw2k10ab:4b72e0d3-2bad-4e77-85a5-e6c5357c9d27"
-            type="listing"
             theme={{
                 primaryColor: '#FF3A4E',
             }}
@@ -72,7 +71,7 @@ export default () => (
                     title: data.name,
                     description: (
                         <div>
-                            <div className="price">${data.price}</div>
+                            <div className="price">{data.price}</div>
                             <p className="info">{data.room_type} · {data.accommodates} guests</p>
                         </div>
                     ),
