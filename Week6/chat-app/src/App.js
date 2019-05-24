@@ -73,7 +73,7 @@ class App extends React.Component {
       })
       this.getRooms()
     })
-    .catch(err => 'error on subscribing to room: ', err)
+    .catch(err => console.log('error on subscribing to room: ', err))
   }
 
   sendMessage(text) {
@@ -87,6 +87,7 @@ class App extends React.Component {
     return (
       <div className="app">
         <RoomList 
+          roomId = {this.state.roomId}
           subscribeToRoom={this.subscribeToRoom} 
           roomList={[...this.state.joinedRooms, ...this.state.joinableRooms]}/>
         <MessageList messages={this.state.messages}/>
