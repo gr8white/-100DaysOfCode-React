@@ -1,9 +1,9 @@
 :root {
-  --main-color: #5ea3d0;
-  --secondary-color: white;
-  --main-text-color: #3e5869;
-  --secondary-text-color: #b0c7d6;
-  --send-message-form: #F5F5F5;
+  --main-color: #4b88a2;
+  --secondary-color: #d3d4d9;
+  --main-text-color: #bb0a21;
+  --secondary-text-color: #252627;
+  --send-message-form: #fff9fb;
 }
 
 html, body {
