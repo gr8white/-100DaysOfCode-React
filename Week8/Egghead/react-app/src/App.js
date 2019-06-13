@@ -1,33 +1,3 @@
-import React, { Component } from 'react'
-
-export class App extends Component {
-  constructor(props) {
-    super(props)
-  
-    this.state = {
-      items: []
-    }
-  }
-
-  componentWillMount() {
-    fetch('http://swapi.co/api/people')
-      .then( response => response.json)
-      .then( ({results: items}) => this.setState({items}))
-  }
-  
-  render() {
-    let items = this.state.items
-    return (
-      <div>
-        {items.map(item => <h4>{item.name}</h4>)}
-      </div>
-    )
-  }
-}
-
-export default App
-
-
 //~~~~~~~~~~~~~Videos 2-6~~~~~~~~~~~~~~~~~~
 
 // import React from 'react'
@@ -219,5 +189,155 @@ export default App
 // }
 
 // App.defaultProps = {val: 0}
+
+// export default App
+
+//~~~~~~~~~~~~~Video 14~~~~~~~~~~~~~~~~~~
+
+// import React, { Component } from 'react'
+
+// export class App extends Component {
+//   constructor(props) {
+//     super(props)
+  
+//     this.state = {
+//       items: []
+//     }
+//   }
+
+//   componentWillMount() {
+//     fetch('https://swapi.co/api/people')
+//       .then( response => response.json())
+//       .then( ({results: items}) => this.setState({items}))
+//   }
+
+//   filter(e) {
+//     this.setState ({filter: e.target.value})
+//   }
+  
+//   render() {
+//     let items = this.state.items
+//     if (this.state.filter) {
+//       items = items.filter( item =>
+//         item.name.toLowerCase()
+//         .includes(this.state.filter.toLowerCase()))
+//     }
+//     return (
+//       <div>
+//         <input type="text" onChange={this.filter.bind(this)}/>
+//         {items.map(item => 
+//         <People key={item.name} person={item}/>)}
+//       </div>
+//     )
+//   }
+// }
+
+// const People = (props) => <h4>{props.person.name}</h4>
+
+// export default App
+
+//~~~~~~~~~~~~~Video 15~~~~~~~~~~~~~~~~~~
+
+// import React, { Component } from 'react'
+
+// const HOC = (InnerComponent) => class extends Component {
+//   constructor() {
+//     super()
+//     this.state ={
+//       count: 0
+//     }
+//     this.update = this.update.bind(this)
+//   }
+//   update(){
+//     this.setState({count: this.state.count + 1})
+//   }
+//   render() {
+//     return (
+//       <InnerComponent 
+//         {...this.props}
+//         {...this.state}
+//         update = {this.update}
+//       />
+//     )
+//   }
+// }
+
+// export class App extends Component {
+//   render() {
+//     return (
+//       <div>
+//         <Button>Button</Button>
+//         <hr />
+//         <LabelHOC>Label</LabelHOC>
+//       </div>
+//     )
+//   }
+// }
+
+// const Button = HOC((props) => 
+//   <button onClick={props.update}>
+//     {props.children} - {props.count}
+//   </button>)
+
+// class Label extends Component {
+//   render() {
+//     return (
+//       <label onMouseMove={this.props.update}>
+//         {this.props.children} - {this.props.count}
+//       </label>
+//     )
+//   }
+// }
+
+// const LabelHOC = HOC(Label)
+
+// export default App
+
+// ~~~~~~~~~~~~~Videos 16~~~~~~~~~~~~~~~~~~
+// import React, { Component } from 'react'
+// import './App.css'
+
+// export class App extends Component {
+//   constructor(props) {
+//     super(props)
+  
+//     this.state = {
+//       input: '/*Add your JSX here*/',
+//       output: '',
+//       err: ''
+//     }
+//   }
+
+//   update(e) {
+//     let code = e.target.value
+//     try {
+//       this.setState({
+//         output: window.Babel
+//         .transform(code, {presets: [ 'es2015', 'react']})
+//         .code,
+//         err: ''
+//       })
+//     } catch (error) {
+//       this.setState({err: error.message})
+//     }
+//   }
+  
+//   render() {
+//     return (
+//       <div>
+//         <header>{this.state.err}</header>
+//         <div className="container">
+//           <textarea
+//             onChange={this.update.bind(this)}
+//             defaultValue={this.state.input}
+//           />
+//           <pre>
+//             {this.state.output}
+//           </pre>
+//         </div>
+//       </div>
+//     )
+//   }
+// }
 
 // export default App
