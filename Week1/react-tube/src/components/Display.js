@@ -39,7 +39,7 @@ class Display extends Component {
                   <div className="embed-responsive embed-responsive-4by3">
                     <Video publicId={data.public_id} width="300" height="300" controls></Video>
                   </div>
-                  <div> Created at {data.created_at} </div>
+                  <div> {data.public_id} </div>
                   <Share url={`http://res.cloudinary.com/unicodeveloper/video/upload/${data.public_id}.mp4`} />
                 </div>
               ))
