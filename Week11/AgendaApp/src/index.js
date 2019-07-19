@@ -230,3 +230,5 @@ class Event extends Component {
   }
 }
 ReactDOM.render(<App />, document.getElementById("root"));
+
+serviceWorker.register()
